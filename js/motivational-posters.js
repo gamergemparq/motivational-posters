@@ -51,6 +51,18 @@ function getQuote() {
   return $.Deferred(promise => {
     const _this = promise;
 
+    $('#poster-title').html( 'Wakeup Determined' );
+
+    $('#poster-text').html( 'Go To Bed Satisfied' );
+
+    _this.resolve();
+  });
+  
+}
+function getQuote2() {
+  return $.Deferred(promise => {
+    const _this = promise;
+
     // Choose a random (cheesy) title for the post
     const titles = [
                     'INTEGRITY',
