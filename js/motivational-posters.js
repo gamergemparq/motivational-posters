@@ -14,8 +14,8 @@ function getPhoto() {
     const _this = promise;
 
     // random number at the end of the url prevents caching
-    const randomNum = Math.floor(Math.random() * 1e6),
-          url = 'https://source.unsplash.com/category/nature/1280x800?sig=' + randomNum,
+    //const randomNum = Math.floor(Math.random() * 1e6),
+    const url = 'https://source.unsplash.com/1280x800/?work',
           img = new Image();
 
     img.crossOrigin = 'anonymous';
